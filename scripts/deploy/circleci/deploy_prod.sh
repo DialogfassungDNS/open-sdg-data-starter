@@ -6,7 +6,7 @@
 # This is the Github organisation or username of your fork. For example, if
 # your fork is located at https://github.com/xyz/open-sdg-site-starter, then
 # you should put "xyz" here. Changing this is required.
-GH_ORG_PROD="sustainabledevelopment-deutschland"
+GH_ORG_PROD="dns-dialogfassung"
 # These variables only control the name/email on the automated Git commits.
 # Changing this is optional.
 GH_NAME="MoBosse"
@@ -21,7 +21,7 @@ git config --global user.name "$GH_NAME"
 # Git to use this key, we need to hack the SSH key:
 sed -i -e 's/Host gh-prod/Host gh-prod\n  HostName github.com/g' ~/.ssh/config
 #git clone git@gh-prod:$GH_ORG_PROD/$CIRCLE_PROJECT_REPONAME.git out
-git clone git@gh-prod:$GH_ORG_PROD/sdg-data-pub.git out
+git clone git@gh-prod:$GH_ORG_PROD/dialog-data.git out
 
 
 cd out

@@ -91,7 +91,7 @@ prose:
             element: text
             label: "Indicator available"
             scope: national
-      - name: "dns_indicator_definition"
+      - name: "dns_indicator_definition_2020"
         field:
             element: text
             label: "Indicator definition"
@@ -101,7 +101,7 @@ prose:
             element: text
             label: "Geographical coverage"
             scope: national
-      - name: "dns_indicator_intention"
+      - name: "dns_indicator_intention_2020"
         field:
             element: text
             label: "Intention"
