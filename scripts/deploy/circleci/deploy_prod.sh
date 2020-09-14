@@ -25,8 +25,8 @@ git clone git@gh-prod:$GH_ORG_PROD/dialog-data.git out
 
 
 cd out
-git checkout gh-pages || git checkout --orphan gh-pages
-#git checkout master || git checkout --orphan master
+#git checkout gh-pages || git checkout --orphan gh-pages
+git checkout master || git checkout --orphan master
 git rm -rfq .
 cd ..
 
@@ -39,5 +39,5 @@ cd out
 git add -A
 git commit -m "Automated deployment to GitHub Pages: ${CIRCLE_SHA1}" --allow-empty
 
-git push origin gh-pages
-#git push origin master
+#git push origin gh-pages
+git push origin master
