@@ -39,5 +39,5 @@ cd out
 git add -A
 git commit -m "Automated deployment to GitHub Pages: ${CIRCLE_SHA1}" --allow-empty
 
-#git push origin gh-pages
-git push origin master
+git push origin gh-pages
+#git push origin master
