@@ -25,8 +25,8 @@ git clone git@gh-prod:$GH_ORG_PROD/dialog-data.git out
 
 
 cd out
-#git checkout gh-pages || git checkout --orphan gh-pages
-git checkout master || git checkout --orphan master
+git checkout gh-pages || git checkout --orphan gh-pages
+#git checkout master || git checkout --orphan master
 git rm -rfq .
 cd ..
 
